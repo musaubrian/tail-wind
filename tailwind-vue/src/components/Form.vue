@@ -5,7 +5,7 @@
         <label for="email" class="text-gray-700 text-left">Email</label>
         <input type="text" placeholder="Enter your email" class="inputs">
         <label for="password">Password</label>
-        <input type="text" placeholder="********" class="inputs">
+        <input type="password" placeholder="********" class="inputs">
 
         <div class="flex flex-row justify-between items-center mt-2 mb-3 text-sm text-gray-700">
             <div class="inline-flex items-center ">
@@ -32,6 +32,6 @@
 @import '../assets/main.css';
 
 .inputs {
-    @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent rounded-md p-3 mb-2 border-2 focus:bg-transparent bg-gray-200 transition-all;
+    @apply focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent rounded-md p-3 mb-2 border-2 focus:bg-gray-100 bg-gray-200 transition-all;
 }
 </style>
